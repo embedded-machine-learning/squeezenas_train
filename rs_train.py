@@ -44,7 +44,7 @@ def main():
                         help='Validation Split for training and validation set.'
                         , required=False)
     
-    parser.add_argument('-s', '--save_dir', default='./railsem_trained_weights/',
+    parser.add_argument('-s', '--save_dir', default='./railsem_trained_weights_new/',
                         help='New weights will be saved here after training.'
                         , required=False)
     
