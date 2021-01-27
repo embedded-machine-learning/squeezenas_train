@@ -9,6 +9,6 @@ We have used the help of the following repository for our training script: https
 
 
 ## How to start with the script:
-In order to start with the script you have to first download the **SqueezeNAS** repository and the download and exctract this repository in the same folder where you have your **SqueezeNAS** scripts. Then you also need to have your dataset in that directory as well so go ahead and download the **RailSem** from the provided link into the directory and you can start with the training.
+In order to start with the script you have to first download the **SqueezeNAS** repository and then download and exctract this repository in the same folder where you have your **SqueezeNAS** scripts. You also need to have your dataset in that directory as well, so go ahead and download the **RailSem** from the provided link into the directory and you can start with the training.
 
 
