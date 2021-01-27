@@ -114,7 +114,7 @@ def main():
     if not os.path.exists(args.save_dir):
         os.mkdir(args.save_dir)
     save_name = args.save_dir+net_name+'.pth'
-    save_name_best = args.save_dir+net_name+'_best.pth'
+    save_name_best = args.save_dir+net_name+'_bestloss.pth'
 
     print('Training on {}'.format(args.net))
     for i in range(0, args.epochs):
@@ -123,7 +123,7 @@ def main():
         train_logs = train_epoch.run(train_loader)
         valid_logs = val_epoch.run(val_loader)
         
-        # do something (save model, change lr, etc.)
+        # saving model ...
         if max_score > valid_logs['cross_entropy_loss']:
             max_score = valid_logs['cross_entropy_loss']
 
