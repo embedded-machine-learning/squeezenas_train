@@ -22,7 +22,7 @@ Using `rs_train.py` you can train your models. By default the training is perfor
 This is our results for evaluation of our trained models on RailSem19 dataset:
 
 |     Architecture      |   mIOU   | Latency Values(ms) |
-| -------------         | -------- |  :-------------:   |
+|    :-------------:    | :------: |  :-------------:   |
 | SqueezeNAS MAC Small  |   36.62  |         34.36      |
 | SqueezeNAS MAC Large  |   41.48  |         76.23      |
 | SqueezeNAS MAC XLarge |   44     |         178.78     |
