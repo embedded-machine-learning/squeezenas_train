@@ -31,9 +31,9 @@ This is our results for evaluation of our trained models on RailSem19 dataset:
 | SqueezeNAS LAT XLarge |   46.76  |         180.18     |
 
 
+Here is an example of the prediction made by `lat_xlarge` model:
 
-
-
+![latxlarge](https://user-images.githubusercontent.com/51420625/106444965-baf1d580-647e-11eb-964b-9007fdde710b.png)
 
 
 
