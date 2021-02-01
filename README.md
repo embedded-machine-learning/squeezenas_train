@@ -34,8 +34,6 @@ This is our results for evaluation of our trained models on RailSem19 dataset:
 
 
 
- 
-
 
 
 
