@@ -83,7 +83,7 @@ def main():
 
     loss = smp.utils.losses.CrossEntropyLoss(ignore_index=255)
     metrics = [
-        smp.utils.metrics.IoU(threshold=0.5),
+        #smp.utils.metrics.IoU(threshold=0.5),
         smp.utils.metrics.Accuracy(threshold=0.5),
     ]
 
