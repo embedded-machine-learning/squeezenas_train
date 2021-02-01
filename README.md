@@ -17,3 +17,42 @@ Using `rs_train.py` you can train your models. By default the training is perfor
 ## Inference:
 1. Latency: We are measuring the inference time in `rs_latency.py` using cuda events.
 2. IoU-Score: Using `rs_iou_visual.py` you can calculate the IoU-Values of the predictions and also visualize the results.
+
+## Results:
+This is our results for evaluation of our trained models on RailSem19 dataset:
+
+| Architecture          |   mIOU   | Latency Values(ms) |
+| -------------         | -------- | ------------- |
+| SqueezeNAS MAC Small  |   36.62  | 34.36  |
+| SqueezeNAS MAC Large  |   41.48  | 76.23  |
+| SqueezeNAS MAC XLarge |   44     | 178.78 |
+| SqueezeNAS LAT Small  |   40.49  | 39.79  |
+| SqueezeNAS LAT Large  |   42.12  | 116.68 |
+| SqueezeNAS LAT XLarge |   46.76  | 180.18 |
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
