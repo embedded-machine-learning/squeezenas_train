@@ -12,7 +12,7 @@ In order to start with the script you have to first download the **SqueezeNAS** 
 
 
 ## Training:
-Using `rs_train.py` you can train your models. By default the training is performed on the CityScapes-trained weights of SqueezeNAS models which are located in the `weights` directory of that repository.
+Using `rs_train.py` you can train your models. By default the training is performed on the pretrained (on CityScapes dataset) weights of SqueezeNAS models which are located in the `weights` directory of that repository.
 
 ## Inference:
 1. Latency: We are measuring the inference time in `rs_latency.py` using cuda events.
