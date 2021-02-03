@@ -8,7 +8,7 @@ SMOOTH = 1e-6
 def iou_pytorch(outputs: torch.Tensor, labels: torch.Tensor):
     intersection = (outputs & labels).sum((0, 1))  # Will be zero if Truth=0 or Prediction=0
     union = (outputs | labels).sum((0, 1))         # Will be zzero if both are 0
-    iou = (intersection + SMOOTH) / (union + SMOOTH)  # We smooth our devision to avoid 0/0
+    iou = (intersection + SMOOTH) / (union + SMOOTH)  # Smoothing devision to avoid 0/0
     return iou
 
 
@@ -38,7 +38,7 @@ def main():
 
     if args.calculate_iou == True:
         iou = 0
-        for i in range (-500,0):
+        for i in range (-500,0): # last 500 images of the dataset used for testing
           pred = cv2.imread(pred_fps[i],0)
           pred = cv2.resize(pred, (1920, 1080), interpolation=cv2.INTER_NEAREST)
           new_set = vis_dataset(images_dir, masks_dir)
